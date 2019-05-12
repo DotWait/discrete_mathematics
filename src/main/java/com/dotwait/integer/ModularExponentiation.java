@@ -6,5 +6,5 @@ package com.dotwait.integer;
  * @description 模指数运算
  */
 public class ModularExponentiation {
-    
+
 }
