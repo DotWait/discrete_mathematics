@@ -1,9 +1,9 @@
 package com.dotwait.integer;
 
 /**
+ * 构造b进制展开式
  * @author DotWait
  * @date 2019-05-12
- * @description 构造b进制展开式
  */
 public class IntegerExpansion {
     /**

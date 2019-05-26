@@ -1,9 +1,9 @@
 package com.dotwait.integer;
 
 /**
+ * 非负整数相加
  * @author DotWait
  * @date 2019-05-12
- * @description 非负整数相加
  */
 public class IntegerAddition {
     /**
@@ -24,7 +24,7 @@ public class IntegerAddition {
      * 二进制字符串相加
      * @param aBinary 二进制字符串
      * @param bBinary 二进制字符串
-     * @return 相加后的二进制字符串
+     * @return 相加后的二进制字符串（未考虑溢出）
      */
     public static String addBinary(String aBinary, String bBinary) {
         int aLen = aBinary.length();
