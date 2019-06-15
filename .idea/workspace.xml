@@ -2,16 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bffeb3ee-5aa6-4415-8d67-8760f4040630" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/dotwait/integer/IntegerDivisionTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/dotwait/integer/IntegerMultiplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/dotwait/integer/ModularExponentiationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/FactorFactorization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/GreatestCommonDivisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/LeastCommonMultiple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/SieveOfEratosthenes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/TrialDivision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/structure/PrimeFactor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/theorem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/dotwait/numbertheory/FactorFactorizationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/dotwait/numbertheory/GreatestCommonDivisorTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/dotwait/numbertheory/LeastCommonMultipleTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/dotwait/numbertheory/SieveOfEratosthenesTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/dotwait/numbertheory/TrialDivisionTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dotwait/integer/IntegerAddition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dotwait/integer/IntegerAddition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dotwait/integer/IntegerDivision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dotwait/integer/IntegerDivision.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dotwait/integer/IntegerExpansion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dotwait/integer/IntegerExpansion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dotwait/integer/IntegerMultiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dotwait/integer/IntegerMultiplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dotwait/integer/ModularExponentiation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dotwait/integer/ModularExponentiation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dotwait/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dotwait/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dotwait/integer/IntegerAddition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dotwait/integer/IntegerAddition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dotwait/integer/IntegerExpansion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dotwait/integer/IntegerExpansion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/dotwait/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/dotwait/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/dotwait/integer/IntegerAdditionTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/dotwait/integer/IntegerAdditionTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/dotwait/integer/IntegerExpansionTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/dotwait/integer/IntegerExpansionTests.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,17 +40,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/integer/IntegerAddition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="32" />
+            <state relative-caret-position="300">
+              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/dotwait/integer/IntegerExpansionTests.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/TrialDivision.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/FactorFactorization.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/dotwait/numbertheory/FactorFactorizationTests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+              <caret line="32" column="47" lean-forward="true" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,19 +80,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/integer/IntegerMultiplication.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/GreatestCommonDivisor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/dotwait/integer/IntegerMultiplicationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            <state relative-caret-position="96">
+              <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="23" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,28 +92,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/integer/IntegerDivision.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/dotwait/numbertheory/GreatestCommonDivisorTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+            <state relative-caret-position="306">
+              <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/LeastCommonMultiple.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/integer/ModularExponentiation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/dotwait/integer/ModularExponentiationTests.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/dotwait/numbertheory/LeastCommonMultipleTests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,35 +128,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/dotwait/integer/IntegerDivisionTests.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/structure/PrimeFactor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="81" lean-forward="true" selection-start-line="12" selection-start-column="81" selection-end-line="12" selection-end-column="81" />
+            <state relative-caret-position="252">
+              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+              <folding>
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#514#515#0" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
+                <element signature="e#571#572#0" expanded="true" />
+                <element signature="e#610#611#0" expanded="true" />
+                <element signature="e#644#645#0" expanded="true" />
+                <element signature="e#966#967#0" expanded="true" />
+                <element signature="e#1014#1015#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/SieveOfEratosthenes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="972">
+              <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.base/java/lang/Integer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="1692" column="39" selection-start-line="1692" selection-start-column="29" selection-end-line="1692" selection-end-column="39" />
-              <folding>
-                <element signature="e#9101#9102#0" expanded="true" />
-                <element signature="e#9147#9148#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.base/java/lang/String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="699" column="16" selection-start-line="699" selection-start-column="16" selection-end-line="699" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -159,6 +187,21 @@
         <option value="$PROJECT_DIR$/src/test/java/com/dotwait/integer/IntegerModularTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dotwait/integer/ModularExponentiationTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dotwait/integer/ModularExponentiation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/dotwait/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/TrialDivision.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/dotwait/numbertheory/TrialDivisionTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/SieveOfEratosthenes.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/dotwait/numbertheory/SieveOfEratosthenesTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/theorem" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/FactorFactorization.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/dotwait/numbertheory/FactorFactorizationTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/structure/PrimeFactor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/dotwait/numbertheory/GreatestCommonDivisorTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/LeastCommonMulople.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/GreatestCommonDivisor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/LeastCommonMuliple.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/LeastCommonMultiple.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/dotwait/numbertheory/LeastCommonMultipleTests.java" />
       </list>
     </option>
   </component>
@@ -233,6 +276,25 @@
               <item name="discrete_mathematics" type="b2602c69:ProjectViewProjectNode" />
               <item name="discrete_mathematics" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dotwait" type="462c0819:PsiDirectoryNode" />
+              <item name="numbertheory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="discrete_mathematics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="discrete_mathematics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dotwait" type="462c0819:PsiDirectoryNode" />
+              <item name="numbertheory" type="462c0819:PsiDirectoryNode" />
+              <item name="structure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="discrete_mathematics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="discrete_mathematics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -259,12 +321,21 @@
               <item name="dotwait" type="462c0819:PsiDirectoryNode" />
               <item name="integer" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="discrete_mathematics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="discrete_mathematics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dotwait" type="462c0819:PsiDirectoryNode" />
+              <item name="numbertheory" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -273,10 +344,10 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -290,82 +361,82 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ModularExponentiationTests.modularExponentiationTest">
-    <configuration name="IntegerAdditionTests.addTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LeastCommonMultipleTests.leastCommonMultipleTest">
+    <configuration name="FactorFactorizationTests.factorFactorizationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="discrete_mathematics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dotwait.integer.*" />
+          <option name="PATTERN" value="com.dotwait.numbertheory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.dotwait.integer" />
-      <option name="MAIN_CLASS_NAME" value="com.dotwait.integer.IntegerAdditionTests" />
-      <option name="METHOD_NAME" value="addTest" />
+      <option name="PACKAGE_NAME" value="com.dotwait.numbertheory" />
+      <option name="MAIN_CLASS_NAME" value="com.dotwait.numbertheory.FactorFactorizationTests" />
+      <option name="METHOD_NAME" value="factorFactorizationTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerDivisionTests.integerDivisionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GreatestCommonDivisorTests.greatestCommonDivisorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="discrete_mathematics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dotwait.integer.*" />
+          <option name="PATTERN" value="com.dotwait.numbertheory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.dotwait.integer" />
-      <option name="MAIN_CLASS_NAME" value="com.dotwait.integer.IntegerDivisionTests" />
-      <option name="METHOD_NAME" value="integerDivisionTest" />
+      <option name="PACKAGE_NAME" value="com.dotwait.numbertheory" />
+      <option name="MAIN_CLASS_NAME" value="com.dotwait.numbertheory.GreatestCommonDivisorTests" />
+      <option name="METHOD_NAME" value="greatestCommonDivisorTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerMultiplicationTests.multiplyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LeastCommonMultipleTests.leastCommonMultipleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="discrete_mathematics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dotwait.integer.*" />
+          <option name="PATTERN" value="com.dotwait.numbertheory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.dotwait.integer" />
-      <option name="MAIN_CLASS_NAME" value="com.dotwait.integer.IntegerMultiplicationTests" />
-      <option name="METHOD_NAME" value="multiplyTest" />
+      <option name="PACKAGE_NAME" value="com.dotwait.numbertheory" />
+      <option name="MAIN_CLASS_NAME" value="com.dotwait.numbertheory.LeastCommonMultipleTests" />
+      <option name="METHOD_NAME" value="leastCommonMultipleTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerMultiplicationTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SieveOfEratosthenesTests.sieveOfEratosthenesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="discrete_mathematics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dotwait.integer.*" />
+          <option name="PATTERN" value="com.dotwait.numbertheory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.dotwait.integer" />
-      <option name="MAIN_CLASS_NAME" value="com.dotwait.integer.IntegerMultiplicationTests" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="com.dotwait.numbertheory" />
+      <option name="MAIN_CLASS_NAME" value="com.dotwait.numbertheory.SieveOfEratosthenesTests" />
+      <option name="METHOD_NAME" value="sieveOfEratosthenesTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ModularExponentiationTests.modularExponentiationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TrialDivisionTests.trialDivisionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="discrete_mathematics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dotwait.integer.*" />
+          <option name="PATTERN" value="com.dotwait.numbertheory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.dotwait.integer" />
-      <option name="MAIN_CLASS_NAME" value="com.dotwait.integer.ModularExponentiationTests" />
-      <option name="METHOD_NAME" value="modularExponentiationTest" />
+      <option name="PACKAGE_NAME" value="com.dotwait.numbertheory" />
+      <option name="MAIN_CLASS_NAME" value="com.dotwait.numbertheory.TrialDivisionTests" />
+      <option name="METHOD_NAME" value="trialDivisionTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -373,11 +444,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ModularExponentiationTests.modularExponentiationTest" />
-        <item itemvalue="JUnit.IntegerDivisionTests.integerDivisionTest" />
-        <item itemvalue="JUnit.IntegerMultiplicationTests.multiplyTest" />
-        <item itemvalue="JUnit.IntegerMultiplicationTests.test" />
-        <item itemvalue="JUnit.IntegerAdditionTests.addTest" />
+        <item itemvalue="JUnit.LeastCommonMultipleTests.leastCommonMultipleTest" />
+        <item itemvalue="JUnit.GreatestCommonDivisorTests.greatestCommonDivisorTest" />
+        <item itemvalue="JUnit.FactorFactorizationTests.factorFactorizationTest" />
+        <item itemvalue="JUnit.SieveOfEratosthenesTests.sieveOfEratosthenesTest" />
+        <item itemvalue="JUnit.TrialDivisionTests.trialDivisionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -394,50 +465,61 @@
       <workItem from="1557629055015" duration="8765000" />
       <workItem from="1557670694881" duration="381000" />
       <workItem from="1558097651333" duration="103000" />
-      <workItem from="1558836391859" duration="8020000" />
+      <workItem from="1558836391859" duration="8176000" />
+      <workItem from="1559444631652" duration="587000" />
+      <workItem from="1560055640499" duration="413000" />
+      <workItem from="1560586356836" duration="15881000" />
     </task>
+    <task id="LOCAL-00001" summary="add the implement of IntegerMultiplication,IntegerDivision,ModularExponentiation">
+      <created>1558849460100</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558849460100</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IntegerDivisionTests_integerDivisionTest - 2019.05.26 at 13h 05m 43s.xml">
-      <configuration name="IntegerDivisionTests.integerDivisionTest" configurationId="JUnit" />
+    <history-entry file="FactorFactorizationTests_factorFactorizationTest - 2019.06.15 at 21h 59m 32s.xml">
+      <configuration name="FactorFactorizationTests.factorFactorizationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IntegerDivisionTests_integerDivisionTest - 2019.05.26 at 13h 06m 22s.xml">
-      <configuration name="IntegerDivisionTests.integerDivisionTest" configurationId="JUnit" />
+    <history-entry file="FactorFactorizationTests_factorFactorizationTest - 2019.06.15 at 21h 59m 51s.xml">
+      <configuration name="FactorFactorizationTests.factorFactorizationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IntegerDivisionTests_integerDivisionTest - 2019.05.26 at 13h 06m 57s.xml">
-      <configuration name="IntegerDivisionTests.integerDivisionTest" configurationId="JUnit" />
+    <history-entry file="FactorFactorizationTests_factorFactorizationTest - 2019.06.15 at 22h 00m 46s.xml">
+      <configuration name="FactorFactorizationTests.factorFactorizationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IntegerDivisionTests_integerDivisionTest - 2019.05.26 at 13h 07m 16s.xml">
-      <configuration name="IntegerDivisionTests.integerDivisionTest" configurationId="JUnit" />
+    <history-entry file="FactorFactorizationTests_factorFactorizationTest - 2019.06.15 at 22h 01m 13s.xml">
+      <configuration name="FactorFactorizationTests.factorFactorizationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ModularExponentiationTests_modularExponentiationTest - 2019.05.26 at 13h 37m 05s.xml">
-      <configuration name="ModularExponentiationTests.modularExponentiationTest" configurationId="JUnit" />
+    <history-entry file="FactorFactorizationTests_factorFactorizationTest - 2019.06.15 at 22h 01m 41s.xml">
+      <configuration name="FactorFactorizationTests.factorFactorizationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ModularExponentiationTests_modularExponentiationTest - 2019.05.26 at 13h 37m 58s.xml">
-      <configuration name="ModularExponentiationTests.modularExponentiationTest" configurationId="JUnit" />
+    <history-entry file="GreatestCommonDivisorTests_greatestCommonDivisorTest - 2019.06.15 at 22h 21m 02s.xml">
+      <configuration name="GreatestCommonDivisorTests.greatestCommonDivisorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ModularExponentiationTests_modularExponentiationTest - 2019.05.26 at 13h 38m 16s.xml">
-      <configuration name="ModularExponentiationTests.modularExponentiationTest" configurationId="JUnit" />
+    <history-entry file="GreatestCommonDivisorTests_greatestCommonDivisorTest - 2019.06.15 at 22h 21m 43s.xml">
+      <configuration name="GreatestCommonDivisorTests.greatestCommonDivisorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ModularExponentiationTests_modularExponentiationTest - 2019.05.26 at 13h 40m 07s.xml">
-      <configuration name="ModularExponentiationTests.modularExponentiationTest" configurationId="JUnit" />
+    <history-entry file="GreatestCommonDivisorTests_greatestCommonDivisorTest - 2019.06.15 at 22h 22m 57s.xml">
+      <configuration name="GreatestCommonDivisorTests.greatestCommonDivisorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ModularExponentiationTests_modularExponentiationTest - 2019.05.26 at 13h 40m 30s.xml">
-      <configuration name="ModularExponentiationTests.modularExponentiationTest" configurationId="JUnit" />
+    <history-entry file="LeastCommonMultipleTests_leastCommonMultipleTest - 2019.06.15 at 22h 40m 04s.xml">
+      <configuration name="LeastCommonMultipleTests.leastCommonMultipleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ModularExponentiationTests_modularExponentiationTest - 2019.05.26 at 13h 40m 45s.xml">
-      <configuration name="ModularExponentiationTests.modularExponentiationTest" configurationId="JUnit" />
+    <history-entry file="LeastCommonMultipleTests_leastCommonMultipleTest - 2019.06.15 at 22h 41m 16s.xml">
+      <configuration name="LeastCommonMultipleTests.leastCommonMultipleTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17269000" />
+    <option name="totallyTimeSpent" value="34306000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2600536" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27010724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -446,13 +528,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33002833" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33002833" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -471,6 +553,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add the implement of IntegerMultiplication,IntegerDivision,ModularExponentiation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add the implement of IntegerMultiplication,IntegerDivision,ModularExponentiation" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -485,20 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/dotwait/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/integer/IntegerExpansion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/dotwait/integer/IntegerAdditionTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -509,16 +581,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.base/java/lang/String.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/integer/IntegerMultiplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="699" column="16" selection-start-line="699" selection-start-column="16" selection-end-line="699" selection-end-column="16" />
+        <state relative-caret-position="234">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.base/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="29070">
           <caret line="1692" column="39" selection-start-line="1692" selection-start-column="29" selection-end-line="1692" selection-end-column="39" />
           <folding>
             <element signature="e#9101#9102#0" expanded="true" />
@@ -527,17 +599,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/integer/IntegerAddition.java">
+    <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.base/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="32" />
+        <state relative-caret-position="11358">
+          <caret line="699" column="16" selection-start-line="699" selection-start-column="16" selection-end-line="699" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/dotwait/integer/IntegerExpansionTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/integer/ModularExponentiation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="450">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/integer/IntegerDivision.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.base/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="358" column="25" selection-start-line="358" selection-start-column="25" selection-end-line="358" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dotwait/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/integer/IntegerExpansion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dotwait/numbertheory/TrialDivisionTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dotwait/integer/ModularExponentiationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -554,44 +675,150 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/integer/IntegerMultiplication.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dotwait/integer/IntegerExpansionTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        <state relative-caret-position="252">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/dotwait/integer/IntegerDivisionTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="81" lean-forward="true" selection-start-line="12" selection-start-column="81" selection-end-line="12" selection-end-column="81" />
+        <state relative-caret-position="144">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="81" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/integer/IntegerDivision.java">
+    <entry file="jar://E:/MavenRepository/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/ComparisonCriteria.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        <state relative-caret-position="178">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/dotwait/integer/ModularExponentiationTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dotwait/numbertheory/SieveOfEratosthenesTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/theorem">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/TrialDivision.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/SieveOfEratosthenes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/integer/ModularExponentiation.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/FactorFactorization.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="284">
+          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dotwait/numbertheory/FactorFactorizationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="32" column="47" lean-forward="true" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/integer/IntegerAddition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/structure/PrimeFactor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#966#967#0" expanded="true" />
+            <element signature="e#1014#1015#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dotwait/numbertheory/GreatestCommonDivisorTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/GreatestCommonDivisor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="23" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/LeastCommonMultiple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dotwait/numbertheory/LeastCommonMultipleTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -599,6 +826,29 @@
   <component name="masterDetails">
     <states>
       <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">
@@ -631,8 +881,22 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>discrete_mathematics</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: junit:junit:4.11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
