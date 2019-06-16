@@ -6,7 +6,6 @@ import java.util.List;
 
 /**
  * 最小公倍数
- * 求解方法：素因子分解
  *
  * @author DotWait
  * @date 2019-06-15
@@ -14,6 +13,7 @@ import java.util.List;
 public class LeastCommonMultiple {
     /**
      * 求两个正整数的最小公倍数
+     * 求解方法：素因子分解
      *
      * @param a 正整数a
      * @param b 正整数b
@@ -72,5 +72,21 @@ public class LeastCommonMultiple {
             num *= base;
         }
         return num;
+    }
+
+    /**
+     * 求两个正整数的最小公倍数
+     * 求解方法：根据定理4，先求最大公约数，再求最小公倍数
+     *
+     * @param a 正整数a
+     * @param b 正整数b
+     * @return a和b的最小公倍数
+     */
+    public static int getLcmByGcd(int a, int b){
+        if (a <= 0 || b <= 0) {
+            return 0;
+        }
+        int gcd = GreatestCommonDivisor.euclideanAlgorithm(a, b);
+        return a * b / gcd;
     }
 }
