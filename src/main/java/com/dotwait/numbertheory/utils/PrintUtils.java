@@ -1,4 +1,4 @@
-package com.dotwait.numbertheory.util;
+package com.dotwait.numbertheory.utils;
 
 /**
  * Print Util

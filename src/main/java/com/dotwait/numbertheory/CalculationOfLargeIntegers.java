@@ -1,7 +1,7 @@
 package com.dotwait.numbertheory;
 
-import static com.dotwait.numbertheory.util.ModUtils.getTheSmallestPositiveIntegerSolution;
-import static com.dotwait.numbertheory.util.PrintUtils.printArray;
+import static com.dotwait.numbertheory.utils.ModUtils.getTheSmallestPositiveIntegerSolution;
+import static com.dotwait.numbertheory.utils.PrintUtils.printArray;
 
 /**
  * 大整数的计算

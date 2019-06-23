@@ -1,6 +1,6 @@
 package com.dotwait.numbertheory;
 
-import static com.dotwait.numbertheory.util.ModUtils.getTheSmallestPositiveIntegerSolution;
+import static com.dotwait.numbertheory.utils.ModUtils.getTheSmallestPositiveIntegerSolution;
 
 /**
  * a模m的逆
