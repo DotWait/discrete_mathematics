@@ -2,21 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bffeb3ee-5aa6-4415-8d67-8760f4040630" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dotwait/cryptography/ClassicalCryptography.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dotwait/cryptography/RSA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dotwait/cryptography/utils/DigitalLetterMappingUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/PseudoRandomNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/dotwait/cryptography/ClassicalCryptographyTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/dotwait/numbertheory/PseudoRandomNumberTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dotwait/cryptography/utils/RSAUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/dotwait/cryptography/RSATests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/CalculationOfLargeIntegers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/CalculationOfLargeIntegers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/Inverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/Inverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/LinearCongruenceEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/LinearCongruenceEquation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/theorem" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/theorem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/util/ModUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/utils/ModUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/util/PrintUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/utils/PrintUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/dotwait/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dotwait/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/dotwait/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/dotwait/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dotwait/cryptography/RSA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dotwait/cryptography/RSA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dotwait/integer/IntegerExpansion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dotwait/integer/IntegerExpansion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dotwait/integer/ModularExponentiation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dotwait/integer/ModularExponentiation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/utils/PrintUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/utils/PrintUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dotwait/integer/IntegerAddition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dotwait/integer/IntegerAddition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dotwait/integer/IntegerExpansion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dotwait/integer/IntegerExpansion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/dotwait/integer/IntegerExpansionTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/dotwait/integer/IntegerExpansionTests.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,16 +21,43 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/FermatLittleTheorem.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/cryptography/utils/RSAUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            <state relative-caret-position="60">
+              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3298#3299#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/dotwait/numbertheory/TrialDivisionTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -43,26 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/cryptography/RSA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/BezoPrinciple.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/GreatestCommonDivisor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="39" column="55" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="55" />
+            <state relative-caret-position="216">
+              <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/integer/ModularExponentiation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="51" lean-forward="true" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+            <state relative-caret-position="252">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -82,8 +86,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/integer/IntegerExpansion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+            <state relative-caret-position="504">
+              <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/dotwait/cryptography/RSATests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/utils/PrintUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/FactorFactorization.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-389">
+              <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,7 +128,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/TrialDivision.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="150">
               <caret line="15" column="39" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="39" />
             </state>
           </provider>
@@ -100,32 +137,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/SieveOfEratosthenes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="972">
+            <state relative-caret-position="756">
               <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/FactorFactorization.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/CalculationOfLargeIntegers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,15 +155,23 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>primeTOCer</find>
+      <find>Integer</find>
+      <find>int</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Long</replace>
+      <replace>long</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/dotwait/integer/IntegerExpansionTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/dotwait/integer/IntegerAdditionTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dotwait/integer/IntegerExpansion.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dotwait/integer/IntegerMultiplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dotwait/integer/IntegerAddition.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dotwait/integer/IntegerMultiplication.java" />
@@ -159,17 +180,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/dotwait/integer/IntegerDivision.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dotwait/integer/IntegerModularTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dotwait/integer/ModularExponentiationTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dotwait/integer/ModularExponentiation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/TrialDivision.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dotwait/numbertheory/TrialDivisionTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/SieveOfEratosthenes.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dotwait/numbertheory/SieveOfEratosthenesTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/FactorFactorization.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dotwait/numbertheory/FactorFactorizationTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/structure/PrimeFactor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/LeastCommonMulople.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/LeastCommonMuliple.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/GreatestCommonDivisor.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dotwait/numbertheory/GreatestCommonDivisorTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/LeastCommonMultiple.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dotwait/numbertheory/LeastCommonMultipleTests.java" />
@@ -179,7 +196,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/BezoPrinciple.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dotwait/numbertheory/InverseTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dotwait/numbertheory/LinearCongruenceEquationTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/Inverse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/LinearCongruenceEquation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/util/ModUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/util/PrintUtils.java" />
@@ -196,7 +212,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/theorem" />
         <option value="$PROJECT_DIR$/src/main/java/com/dotwait/cryptography/utils/DigitalLetterMappingUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dotwait/cryptography/ClassicalCryptography.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dotwait/integer/ModularExponentiation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dotwait/integer/IntegerExpansion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/Inverse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/utils/ModUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/GreatestCommonDivisor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/FactorFactorization.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/structure/PrimeFactor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/utils/PrintUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/dotwait/cryptography/RSATests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dotwait/cryptography/RSA.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dotwait/cryptography/utils/RSAUtil.java" />
       </list>
     </option>
   </component>
@@ -367,14 +393,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="E:/代码学习/jdk" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -394,7 +421,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ClassicalCryptographyTests.classicalCryptographyTest">
+  <component name="RunManager" selected="JUnit.RSATests.RSATest">
     <configuration name="AppTest.shouldAnswerWithTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="discrete_mathematics" />
       <extension name="coverage">
@@ -406,22 +433,6 @@
       <option name="PACKAGE_NAME" value="com.dotwait" />
       <option name="MAIN_CLASS_NAME" value="com.dotwait.AppTest" />
       <option name="METHOD_NAME" value="shouldAnswerWithTrue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculationOfLargeIntegersTests.calculationOfLargeIntegersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="discrete_mathematics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dotwait.numbertheory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dotwait.numbertheory" />
-      <option name="MAIN_CLASS_NAME" value="com.dotwait.numbertheory.CalculationOfLargeIntegersTests" />
-      <option name="METHOD_NAME" value="calculationOfLargeIntegersTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -475,13 +486,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RSATests.RSATest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="discrete_mathematics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dotwait.cryptography.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dotwait.cryptography" />
+      <option name="MAIN_CLASS_NAME" value="com.dotwait.cryptography.RSATests" />
+      <option name="METHOD_NAME" value="RSATest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RSATests.RSATest" />
         <item itemvalue="JUnit.ClassicalCryptographyTests.classicalCryptographyTest" />
         <item itemvalue="JUnit.AppTest.shouldAnswerWithTrue" />
         <item itemvalue="JUnit.PseudoRandomNumberTests.pseudoRandomNumberTest" />
         <item itemvalue="JUnit.FermatLittleTheoremTests.fermatLittleTheoremTest" />
-        <item itemvalue="JUnit.CalculationOfLargeIntegersTests.calculationOfLargeIntegersTest" />
       </list>
     </recent_temporary>
   </component>
@@ -507,7 +534,12 @@
       <workItem from="1560671949856" duration="180000" />
       <workItem from="1560672231587" duration="218000" />
       <workItem from="1561256059664" duration="10266000" />
-      <workItem from="1561277934376" duration="6879000" />
+      <workItem from="1561277934376" duration="7523000" />
+      <workItem from="1561377211233" duration="6414000" />
+      <workItem from="1561732883253" duration="968000" />
+      <workItem from="1561769084732" duration="8857000" />
+      <workItem from="1561800015003" duration="1811000" />
+      <workItem from="1561859564338" duration="9520000" />
     </task>
     <task id="LOCAL-00001" summary="add the implement of IntegerMultiplication,IntegerDivision,ModularExponentiation">
       <created>1558849460100</created>
@@ -530,48 +562,55 @@
       <option name="project" value="LOCAL" />
       <updated>1560672308663</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add ClassicalCryptography">
+      <created>1561302293864</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1561302293864</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ClassicalCryptographyTests_classicalCryptographyTest - 2019.06.23 at 13h 38m 28s.xml">
-      <configuration name="ClassicalCryptographyTests.classicalCryptographyTest" configurationId="JUnit" />
+    <history-entry file="RSATests_RSATest - 2019.06.30 at 12h 00m 29s.xml">
+      <configuration name="RSATests.RSATest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClassicalCryptographyTests_classicalCryptographyTest - 2019.06.23 at 13h 40m 35s.xml">
-      <configuration name="ClassicalCryptographyTests.classicalCryptographyTest" configurationId="JUnit" />
+    <history-entry file="RSATests_RSATest - 2019.06.30 at 12h 01m 06s.xml">
+      <configuration name="RSATests.RSATest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClassicalCryptographyTests_classicalCryptographyTest - 2019.06.23 at 13h 40m 48s.xml">
-      <configuration name="ClassicalCryptographyTests.classicalCryptographyTest" configurationId="JUnit" />
+    <history-entry file="RSATests_RSATest - 2019.06.30 at 12h 30m 48s.xml">
+      <configuration name="RSATests.RSATest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClassicalCryptographyTests_classicalCryptographyTest - 2019.06.23 at 13h 42m 10s.xml">
-      <configuration name="ClassicalCryptographyTests.classicalCryptographyTest" configurationId="JUnit" />
+    <history-entry file="RSATests_RSATest - 2019.06.30 at 12h 34m 33s.xml">
+      <configuration name="RSATests.RSATest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClassicalCryptographyTests_classicalCryptographyTest - 2019.06.23 at 13h 42m 16s.xml">
-      <configuration name="ClassicalCryptographyTests.classicalCryptographyTest" configurationId="JUnit" />
+    <history-entry file="RSATests_RSATest - 2019.06.30 at 12h 38m 12s.xml">
+      <configuration name="RSATests.RSATest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClassicalCryptographyTests_classicalCryptographyTest - 2019.06.23 at 13h 42m 46s.xml">
-      <configuration name="ClassicalCryptographyTests.classicalCryptographyTest" configurationId="JUnit" />
+    <history-entry file="RSATests_RSATest - 2019.06.30 at 12h 42m 48s.xml">
+      <configuration name="RSATests.RSATest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClassicalCryptographyTests_classicalCryptographyTest - 2019.06.23 at 13h 43m 12s.xml">
-      <configuration name="ClassicalCryptographyTests.classicalCryptographyTest" configurationId="JUnit" />
+    <history-entry file="RSATests_RSATest - 2019.06.30 at 12h 43m 10s.xml">
+      <configuration name="RSATests.RSATest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClassicalCryptographyTests_classicalCryptographyTest - 2019.06.23 at 13h 43m 51s.xml">
-      <configuration name="ClassicalCryptographyTests.classicalCryptographyTest" configurationId="JUnit" />
+    <history-entry file="RSATests_RSATest - 2019.06.30 at 12h 49m 03s.xml">
+      <configuration name="RSATests.RSATest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClassicalCryptographyTests_classicalCryptographyTest - 2019.06.23 at 13h 46m 19s.xml">
-      <configuration name="ClassicalCryptographyTests.classicalCryptographyTest" configurationId="JUnit" />
+    <history-entry file="RSATests_RSATest - 2019.06.30 at 12h 49m 15s.xml">
+      <configuration name="RSATests.RSATest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClassicalCryptographyTests_classicalCryptographyTest - 2019.06.23 at 13h 46m 50s.xml">
-      <configuration name="ClassicalCryptographyTests.classicalCryptographyTest" configurationId="JUnit" />
+    <history-entry file="RSATests_RSATest - 2019.06.30 at 12h 50m 28s.xml">
+      <configuration name="RSATests.RSATest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66439000" />
+    <option name="totallyTimeSpent" value="94653000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2935657" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25737265" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -610,81 +649,10 @@
     <MESSAGE value="add TrialDivision,SieveOfEratosthenes,FactorFactorization,GreatestCommonDivisior,LeastCommonMultiple" />
     <MESSAGE value="add Inverse,BezoPrinciple,CalculationOfLargeIntegers" />
     <MESSAGE value="add Inverse,BezoPrinciple,CalculationOfLargeIntegers,FermatLittleTheorem" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Inverse,BezoPrinciple,CalculationOfLargeIntegers,FermatLittleTheorem" />
+    <MESSAGE value="add ClassicalCryptography" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ClassicalCryptography" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.base/java/lang/Byte.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/dotwait/integer/IntegerAdditionTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/integer/IntegerMultiplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.base/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29070">
-          <caret line="1692" column="39" selection-start-line="1692" selection-start-column="29" selection-end-line="1692" selection-end-column="39" />
-          <folding>
-            <element signature="e#9101#9102#0" expanded="true" />
-            <element signature="e#9147#9148#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11358">
-          <caret line="699" column="16" selection-start-line="699" selection-start-column="16" selection-end-line="699" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.base/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="358" column="25" selection-start-line="358" selection-start-column="25" selection-end-line="358" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/dotwait/numbertheory/TrialDivisionTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/dotwait/integer/ModularExponentiationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/dotwait/integer/IntegerMultiplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -752,13 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/integer/IntegerAddition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -786,13 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/integer/IntegerDivision.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="45" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/dotwait/numbertheory/InverseTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -810,13 +764,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/utils/PrintUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -867,32 +814,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/Inverse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/cryptography/utils.java" />
-    <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.base/java/lang/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="10589" column="52" selection-start-line="10589" selection-start-column="47" selection-end-line="10589" selection-end-column="52" />
-          <folding>
-            <element signature="e#315890#315891#0" expanded="true" />
-            <element signature="e#315924#315925#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/utils/ModUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/dotwait/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -934,26 +856,128 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/FermatLittleTheorem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.base/java/math/BigInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1854">
+          <caret line="142" column="51" selection-start-line="142" selection-start-column="51" selection-end-line="142" selection-end-column="51" />
+          <folding>
+            <element signature="e#27297#27298#0" expanded="true" />
+            <element signature="e#27346#27347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.base/java/math/MutableBigInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/cryptography/utils/DigitalLetterMappingUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-355">
-          <caret line="78" column="19" lean-forward="true" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
+        <state relative-caret-position="1386">
+          <caret line="78" column="19" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1908#1909#0" expanded="true" />
-            <element signature="e#1962#1963#0" expanded="true" />
-            <element signature="e#2103#2104#0" expanded="true" />
-            <element signature="e#2157#2158#0" expanded="true" />
-            <element signature="e#2691#2692#0" expanded="true" />
-            <element signature="e#2749#2750#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/com/dotwait/AppTest.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.base/java/lang/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="199" column="50" selection-start-line="199" selection-start-column="50" selection-end-line="199" selection-end-column="50" />
+          <folding>
+            <element signature="e#315890#315891#0" expanded="true" />
+            <element signature="e#315924#315925#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/integer/IntegerDivision.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/integer/IntegerAddition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/integer/IntegerMultiplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.base/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10080">
+          <caret line="605" column="35" selection-start-line="605" selection-start-column="35" selection-end-line="605" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/CalculationOfLargeIntegers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/cryptography/ClassicalCryptography.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+        <state relative-caret-position="396">
+          <caret line="46" column="35" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.base/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="421" column="16" selection-start-line="421" selection-start-column="16" selection-end-line="421" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/BezoPrinciple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/utils/ModUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="79" lean-forward="true" selection-start-line="30" selection-start-column="79" selection-end-line="30" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/GreatestCommonDivisor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="27" column="67" lean-forward="true" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -962,21 +986,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/structure/PrimeFactor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        <state relative-caret-position="234">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/TrialDivision.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/Inverse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="39" />
+        <state relative-caret-position="186">
+          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dotwait/numbertheory/TrialDivisionTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/FactorFactorization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-389">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/SieveOfEratosthenes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
+        <state relative-caret-position="756">
           <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -984,68 +1035,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/FactorFactorization.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/TrialDivision.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/CalculationOfLargeIntegers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/FermatLittleTheorem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/GreatestCommonDivisor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="39" column="55" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/integer/IntegerExpansion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+        <state relative-caret-position="150">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/integer/ModularExponentiation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="51" lean-forward="true" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+        <state relative-caret-position="252">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/BezoPrinciple.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dotwait/cryptography/RSATests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+        <state relative-caret-position="342">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/numbertheory/utils/PrintUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/integer/IntegerExpansion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/cryptography/utils/RSAUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3298#3299#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dotwait/cryptography/RSA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="216">
+          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -30,7 +30,7 @@ public class IntegerExpansion {
      * @param num 十进制非负整数
      * @return 二进制的展开式
      */
-    public static String constructBinaryExpansion(int num) {
+    public static String constructBinaryExpansion(long num) {
         if (num == 0){
             return "0";
         }
