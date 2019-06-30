@@ -42,11 +42,13 @@ public class RSA {
     /**
      * 对消息进行加密，n表示多少个数字为一组进行加密，此处最好取3，容易均分，
      * 若不均分可能会出现解密失败，此问题日后有时间再解决
+     * 密钥长度由于此次实现过于简单，未使用此参数
      * @param message 待加密的字符串消息
      * @param n 划分数字的长度
+     * @param len 密钥长度
      * @return 加密后的数字序列数组
      */
-    public static Integer[] encryption(String message, int n) {
+    public static Integer[] encryption(String message, int n, int len) {
         String digitalStr = convertToDigitalString(message);
         Integer[] sepDigital = separateDigitalString(digitalStr, n);
         bigPrime1 = generateBigPrime();

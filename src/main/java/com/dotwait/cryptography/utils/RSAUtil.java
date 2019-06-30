@@ -89,11 +89,11 @@ public class RSAUtil {
      */
     public static String convertToDigitalString(String message) {
         char[] chars = message.toCharArray();
-        String digitalStr = "";
+        StringBuilder digitalStr = new StringBuilder();
         for (Character letter : chars) {
-            digitalStr += RSAUtil.getDigital(letter);
+            digitalStr.append(RSAUtil.getDigital(letter));
         }
-        return digitalStr;
+        return digitalStr.toString();
     }
 
     /**
@@ -140,8 +140,8 @@ public class RSAUtil {
     public static Integer generateBigPrime() {
         do {
             bigPrime = mapPrime.get(random.nextInt(1230));
-            if (bigPrime < 1000) {
-                continue;
+            while (bigPrime < 1000){
+                bigPrime = mapPrime.get(random.nextInt(1230));
             }
         } while (!isPrime(bigPrime));
         return bigPrime;
